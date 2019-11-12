@@ -100,3 +100,74 @@ main{
     text-decoration: none;
     color: #d93600;
 }
+footer{
+    box-sizing: border-box;
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    font-size: 15px;
+    color: white;
+    background: #333333;
+}
+
+label{
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 5px;
+}
+#nome , #email {
+    padding: 5px;
+    width: 300px;
+}
+
+#mensagem{
+    padding: 5px;
+    width: 500px;
+    display: block;
+    height: 100px;
+    margin-bottom: 14px;
+}
+
+button{
+    padding: 5px 10px;
+    background: #777777;
+    color: white;
+    border: 0;
+}
+
+.coluna-mapa{
+    
+    box-sizing: border-box;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.coluna-formulario{
+    
+    box-sizing: border-box;
+    width: 605px;
+    display: inline-block;
+}
+
+.destaque-mapa{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.fotos{
+    width: 100px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 7px;
+    column-count: 3;
+    box-sizing: border-box
+}
+
+.coluna3{
+    list-style: none;
+    column-count: 3;
+}
+
